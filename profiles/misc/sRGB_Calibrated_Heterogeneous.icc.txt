@@ -1,0 +1,51 @@
+                Size : 0x000007D4 : 2004
+    Data color space : 0x52474220 : 'RGB '
+                 PCS : 0x58595A20 : 'XYZ '
+           Tag count : 0x00000009 : 9
+
+ Tag    : Type   : Size   : Offset
+ ------ : ------ : ------ : --------
+ 'desc' : 'mluc' :     52 : 240
+ 'rXYZ' : 'XYZ ' :     20 : 292
+ 'gXYZ' : 'XYZ ' :     20 : 312
+ 'bXYZ' : 'XYZ ' :     20 : 332
+ 'rTRC' : 'curv' :    524 : 352
+ 'gTRC' : 'curv' :    524 : 876
+ 'bTRC' : 'curv' :    524 : 1400
+ 'wtpt' : 'XYZ ' :     20 : 1924
+ 'cprt' : 'mluc' :     60 : 1944
+
+rTRC : 16-bit table with 256 entries
+  ~= : 2.231975, 1.004669, -0.004109052, 0.01206226, 0.03921569, -8.392334e-05, 0 (Max error: 0.00599737) (D-gap: 1.6209e-05)
+gTRC : 16-bit table with 256 entries
+  ~= : 2.198176, 1.010323, -0.008952959, 0.009727627, 0.02352941, 0.0001678467, 0 (Max error: 0.00397193) (D-gap: 3.42575e-05)
+bTRC : 16-bit table with 256 entries
+  ~= : 2.261965, 1.004639, -0.00400689, 0.0077821, 0.01960785, 7.629395e-05, 0 (Max error: 0.00375706) (D-gap: 6.62589e-06)
+Best : 2.231975, 1.004669, -0.004109052, 0.01206226, 0.03921569, -8.392334e-05, 0 (D-gap: 1.6209e-05)
+Inv  : 0.4480337, 0.9896812, 8.305736e-05, 82.90323, 0.0004730297, 0.004089355, -0 (D-gap: -0.000455979)
+ XYZ : | 0.449279785 0.382583618 0.132339478 |
+       | 0.224472046 0.722351074 0.053176880 |
+       | 0.001129150 0.053558350 0.770217896 |
+252 random bytes transformed to linear XYZD50 bytes:
+	34572f a6d810 4c6710 180c31 1c0f4d 604904 4c8a1f
+	6e3a2c 1b160f 704723 a5a60a 4e6006 2c452a 422497
+	a88ea1 4a6293 7d874b 415614 291359 8e7906 8c4aa5
+	78401d 0a043c d4f05d 813e98 8bbb22 200e80 497342
+	484b2c 372b3d 1e0e49 8b8f4f 8dcb69 844673 417809
+	748d87 394d14 572b02 55972c 060806 150c6d 242a53
+	1a0b84 282a02 466572 090a1a 233708 4e300f 8f6994
+	b7af52 a572bf 5e361c 3f6d2a 518838 180e0e 61b411
+	50811d 7b6606 201526 362e09 0b0735 05021c 3f2c1b
+	69606c 553663 386207 512760 2f1726 2a2f51 5c6690
+	294311 2f228a 0f0833 5a2e02 59990b 02010b 4d59ad
+	63ad10 44282b 384538 5d3b20 528e39 4e3016 4e6089
+81 edge-case pixels transformed to sRGB 8888 (unpremul):
+	00000000 00000080 000000ff  00008003 00007f80 00007dff  0000ff0e 0000ff81 0000ffff
+	00820000 0081007d 007d00ff  007e7f00 007d7f7e 00797dff  006fff00 006eff7f 0069ffff
+	00ff0000 00ff0072 00ff00fe  00ff7f00 00ff7f72 00ff7cff  00ffff00 00ffff73 00ffffff
+	7f000000 7f000080 7f0000ff  7f008003 7f007f80 7f007dff  7f00ff0e 7f00ff81 7f00ffff
+	7f820000 7f81007d 7f7d00ff  7f7e7f00 7f7d7f7e 7f797dff  7f6fff00 7f6eff7f 7f69ffff
+	7fff0000 7fff0072 7fff00fe  7fff7f00 7fff7f72 7fff7cff  7fffff00 7fffff73 7fffffff
+	ff000000 ff000080 ff0000ff  ff008003 ff007f80 ff007dff  ff00ff0e ff00ff81 ff00ffff
+	ff820000 ff81007d ff7d00ff  ff7e7f00 ff7d7f7e ff797dff  ff6fff00 ff6eff7f ff69ffff
+	ffff0000 ffff0072 ffff00fe  ffff7f00 ffff7f72 ffff7cff  ffffff00 ffffff73 ffffffff

@@ -1,0 +1,50 @@
+                Size : 0x000B0CAC : 724140
+    Data color space : 0x434D594B : 'CMYK'
+                 PCS : 0x4C616220 : 'Lab '
+           Tag count : 0x0000000B : 11
+
+ Tag    : Type   : Size   : Offset
+ ------ : ------ : ------ : --------
+ 'A2B0' : 'mft2' : 395328 : 512
+ 'A2B1' : 'mft2' : 395328 : 512
+ 'A2B2' : 'mft2' : 395328 : 512
+ 'B2A0' : 'mft2' : 291144 : 395840
+ 'B2A1' : 'mft2' : 291144 : 395840
+ 'B2A2' : 'mft2' : 291144 : 395840
+ 'cprt' : 'text' :     50 : 264
+ 'desc' : 'desc' :    176 : 316
+ 'gamt' : 'mft1' :  37009 : 686984
+ 'wtpt' : 'XYZ ' :     20 : 492
+ 'AS00' : 'data' :    144 : 723996
+
+ A2B : "A", CLUT, "B"
+ "A" : 4 inputs
+  A0 : 16-bit table with 256 entries
+  A1 : 16-bit table with 256 entries
+  A2 : 16-bit table with 256 entries
+  A3 : 16-bit table with 256 entries
+CLUT : 16 x 16 x 16 x 16 (16 bpp)
+ "B" : 3 outputs
+  B0 : 1, 1, 0, 0, 0, 0, 0 (~Identity)
+  B1 : 1, 1, 0, 0, 0, 0, 0 (~Identity)
+  B2 : 1, 1, 0, 0, 0, 0, 0 (~Identity)
+252 random bytes transformed to linear XYZD50 bytes:
+	121d22 36200e 090a05 191117 181106 131d0a 221d12
+	252136 000000 0e1312 242d47 472e1f 252618 010100
+	020202 6d483b 000000 424a56 2e1915 010100 231813
+	1d1d11 010101 373b32 6c846f 1b2b12 151a34 2d351a
+	070807 020201 010103 010100 000000 010203 0a0b08
+	050805 857259 302c2a 26290a 020403 050402 020103
+	324527 040202 050503 000000 030408 282f2a 080605
+	000000 1a1b04 0e0e11 2e3610 181913 110d14 0b0a0e
+	010101 090a0f 090504 151310 030201 100d0a 1f1d23
+81 edge-case pixels transformed to sRGB 8888 (unpremul):
+	ff010000 ff010000 ff010000  ff010000 ff010000 ff010000  ff010000 ff010000 ff010000
+	ff010000 ff010000 ff010000  ff010000 ff010000 ff010000  ff010000 ff010000 ff010000
+	ff010000 ff010000 ff010000  ff010000 ff010000 ff010000  ff010000 ff010000 ff010000
+	ff1a1219 ff16104d ff110080  ff1e3900 ff16474c ff01588a  ff1f5a00 ff117144 ff008d8f
+	ff300d1d ff2f0950 ff2c0081  ff433900 ff434851 ff42598b  ff595d00 ff59744b ff599193
+	ff45061e ff450051 ff450082  ff663900 ff694854 ff6d5b8d  ff886000 ff8e774d ff959493
+	ff332734 ff2e2389 ff2400dd  ff396700 ff2c7f88 ff009bed  ff3d9e00 ff25c57a ff00f3f6
+	ff581f39 ff56178d ff5200df  ff786800 ff788090 ff779df1  ff9ca300 ff9dc985 ff9df9fc
+	ff7b113c ff7b0090 ff7b00e1  ffb26800 ffb68094 ffbc9ff3  ffeba800 fff3ce8a fffffefc

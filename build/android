@@ -1,0 +1,26 @@
+ndk     = ../ndk
+target  = aarch64-linux-android
+arch    = arch-arm64
+ndk_api = 24
+
+cc      = $ndk/toolchains/llvm/prebuilt/*/bin/clang   -target $target
+cxx     = $ndk/toolchains/llvm/prebuilt/*/bin/clang++ -target $target
+
+cflags  = -fcolor-diagnostics -Weverything $
+          --sysroot $ndk/sysroot $
+          -I $ndk/sysroot/usr/include/$target
+ldflags = -pie -fuse-ld=gold $
+          --sysroot $ndk/platforms/android-$ndk_api/$arch $
+          -B $ndk/toolchains/${target}-4.9/prebuilt/*/$target/bin $
+          -L $ndk/toolchains/${target}-4.9/prebuilt/*/lib/gcc/$target/4.9.x
+out     = out/android$mode
+
+rule run
+    command = if which adb >/dev/null && adb get-state >/dev/null 2>/dev/null; $
+              then $
+                  adb push --sync profiles /data/local/tmp >/dev/null; $
+                  adb push $in /data/local/tmp/$in >/dev/null; $
+                  adb shell "cd /data/local/tmp; ./$in" > $out; $
+              else touch $out; fi
+    description = run $in
+include build/common
